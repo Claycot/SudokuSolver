@@ -1,5 +1,5 @@
 # SudokuSolver
-C++ solver for sudoku puzzles.
+C++ solver for easy sudoku puzzles. The current algorithm is a bit stupid and it will hang up if there is more than one path forward (ie. if there is no cell with only a single possible entry). If it says "Solving puzzle" and progress is not being made, hit the break key or hit Ctrl+C to exit; that puzzle is unsolvable for the program.
 
 Usage:
 
